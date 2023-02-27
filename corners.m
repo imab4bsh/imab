@@ -4,7 +4,7 @@ function [lon_pts,lat_pts]=corners(lonlims,latlims)
 % [lon_pts,lat_pts]=corners(lonlims,latlims)
 
 % Author
-% Oceanographer MSc. Ingrid M. Angel-Benavides
+% Oceanographer MSc. Ingrid M. Angel-Benavides.
 % email: ingrid.angelb@gmail.com
 
 lat_pts=[min(latlims) min(latlims) max(latlims)  max(latlims) min(latlims)];
